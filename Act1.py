@@ -72,3 +72,25 @@ while z > 0:
     print(' ' * z + '*' * x + ' ' * z)
     x+=2
     z-=1
+
+# El uso de Break, es para finalizar lo que se este haciendo.
+# En el caso se ve como cuando el numero llegue a 0, se termina el ciclo
+
+x = 5
+while True:
+    x -= 1
+    print(x, end=" ")
+    if x == 0:
+        print("Fin del ciclo")
+        break
+
+# El continue, hace que se salte esa parte y continue con el ciclo
+# En este caso, cuando la letra sea igual a 'P', se salta esa letra y continua con el ciclo
+
+cadena = 'Python'
+for letra in cadena:
+    if letra == 'P':
+        continue
+    print(letra, end=" ")
+
+#
