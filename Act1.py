@@ -80,7 +80,7 @@ x = 5
 while True:
     x -= 1
     print(x, end=" ")
-    if x == 0:
+    if x == 0 :
         print("Fin del ciclo")
         break
 
@@ -93,4 +93,13 @@ for letra in cadena:
         continue
     print(letra, end=" ")
 
-#
+print("\n")
+
+# Uso del Zip, para unir dos listas en una sola
+# En este caso se unen dos listas, una con numeros y otra con palabras
+a = [1, 2, 3]
+b = ["Uno", "Dos", "Tres"]
+c = zip(a, b)
+print(list(c))
+
+print("\n")
